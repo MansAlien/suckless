@@ -307,7 +307,6 @@ static const char *const autostart[] = {
 	"sh", "-c", "fcitx5", NULL,
 	"sh", "-c", "slstatus", NULL,
 	"sh", "-c", "sxhkd &", NULL,
-	"sh", "-c", "xautolock -time 60 -locker \"systemctl suspend\"", NULL,
 	"sh", "-c", "xautolock -time 10 -locker \"betterlockscreen -l\"", NULL,
 };
 
